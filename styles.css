@@ -517,6 +517,20 @@ li a:hover {
   color: var(--lb-text);
   text-align: center;
 }
+@media (max-width: 767px) {
+  .thumbnail .item {
+    width: 150px;
+    height: 220px;
+    filter: brightness(0.5);
+    transition: 0.5s;
+    flex-shrink: 0;
+    overflow: hidden;
+    font-family: voltaire;
+    font-size: 0.7rem;
+    font-weight: var(--lb-font-regular);
+  }
+}
+
 .thumbnail .item img {
   width: 100%;
   height: 100%;
