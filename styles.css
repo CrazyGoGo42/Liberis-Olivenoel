@@ -462,6 +462,14 @@ li a:hover {
   font-size: 1.3rem;
   font-family: Hind;
 }
+@media (max-width: 767px) {
+  .slider .list .item.active p:nth-child(3) {
+    animation-duration: 1.3s;
+    /* Me not that much likey.... we will see */
+    font-size: 1rem;
+    font-family: Hind;
+  }
+}
 .arrows {
   position: absolute;
   bottom: 1%;
@@ -516,19 +524,6 @@ li a:hover {
   font-weight: var(--lb-font-bold);
   color: var(--lb-text);
   text-align: center;
-}
-@media (max-width: 767px) {
-  .thumbnail .item {
-    width: 150px;
-    height: 220px;
-    filter: brightness(0.5);
-    transition: 0.5s;
-    flex-shrink: 0;
-    overflow: hidden;
-    font-family: voltaire;
-    font-size: 0.7rem;
-    font-weight: var(--lb-font-regular);
-  }
 }
 
 .thumbnail .item img {
